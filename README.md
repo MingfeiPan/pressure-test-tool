@@ -1,2 +1,2 @@
 usage:
-python3 index
+python3 index.py
