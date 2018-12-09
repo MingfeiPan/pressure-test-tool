@@ -17,7 +17,7 @@ from collections import defaultdict, namedtuple
 
 http_methods = ['GET', 'POST', 'DELETE', 'PATCH', 'PUT']
 data_methods = ['POST', 'PATCH', 'PUT']
-default_timeout = 60
+# default_timeout = 60
 
 ret = {'error':[], 'msg': defaultdict(list), 'total_time': 0}
 stats = namedtuple('stats', ['count', 'total_time', 'rps', 'avg', 'min', 'max'])
